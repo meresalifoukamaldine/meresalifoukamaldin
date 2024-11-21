@@ -1,0 +1,125 @@
+/* Style global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    color: aqua;
+}
+
+/* Appliquer une image en fond d'écran */
+body {
+    background-image: url('assets/images/bg1.jpg'); /* Remplacez par l'URL de votre image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Formulaire de connexion */
+form {
+    background: rgba(0, 0, 0, 0.7); /* Transparence pour l'arrière-plan */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1em;
+    color: #333;
+    background-color: #fff;
+}
+
+form input[type="submit"] {
+    background-color: #f76c6c;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #f13c3c;
+    transform: scale(1.1);
+}
+
+/* Titre du formulaire */
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Message d'erreur */
+.error-message {
+    color: #ff4d4d;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 1em;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2em;
+    }
+
+    form {
+        padding: 30px;
+    }
+
+    form input[type="submit"] {
+        font-size: 1em;
+    }
+}
+/* Style de base pour les liens */
+a {
+    color: blue;  /* Couleur de texte rouge clair */
+    text-decoration: none;  /* Retirer la décoration par défaut (soulignement) */
+    font-weight: bold;  /* Rendre le texte du lien plus prononcé */
+    transition: color 0.3s ease, text-decoration 0.3s ease;  /* Effet de transition pour une animation douce */
+}
+
+/* Effet au survol */
+a:hover {
+    color: green;  /* Changer la couleur du lien au survol (rouge plus foncé) */
+    text-decoration: underline;  /* Ajouter un soulignement au survol */
+    transform: scale(1.05);  /* Légère agrandissement du lien */
+}
+
+
+
+
+

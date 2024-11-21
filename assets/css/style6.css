@@ -1,0 +1,108 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f4f7f6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .dashboard-links {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .dashboard-links a {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .dashboard-links a:hover {
+            background-color: #0056b3;
+        }
+
+        .event-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .event-item {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 6px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .event-item img {
+            max-width: 200px;
+            margin-right: 20px;
+            border-radius: 6px;
+        }
+
+        .event-item h3 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .event-item span {
+            color: #888;
+            font-size: 14px;
+        }
+
+        .event-item .description {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        footer {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+           
+            bottom: 100;
+        }
+        /* Menu de navigation */
+
+
+
+   

@@ -1,0 +1,104 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .container {
+            width: 70%;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .alert {
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .alert.success {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .alert.error {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        form input, form textarea, form button {
+            font-size: 16px;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        form input[type="file"] {
+            padding: 6px;
+        }
+
+        form button {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            border: none;
+            font-weight: bold;
+        }
+
+        form button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007BFF;
+            color: white;
+        }
+        .back-button {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #4CAF50; /* Couleur de fond */
+            color: white; /* Couleur du texte */
+            text-decoration: none; /* Pas de soulignement */
+            border-radius: 5px; /* Bords arrondis */
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background-color: #45a049; /* Couleur lors du survol */
+        }
+        
+    

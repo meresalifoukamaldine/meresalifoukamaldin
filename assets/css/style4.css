@@ -1,0 +1,190 @@
+/* Style général du paragraphe */
+p {
+    font-size: 1.1em;
+    color: #333;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Style de la liste dans le paragraphe */
+p {
+    list-style-type: none; /* Retire les puces */
+    padding: 0;
+}
+
+p  {
+    display: inline-block; /* Affiche l'élément en ligne */
+    margin: 10px;
+}
+
+/* Style pour le lien */
+p  a {
+    text-decoration: none; /* Retire le soulignement */
+    color: white;
+    background-color: #5a67d8; /* Bleu avec un bon contraste */
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover et effet d'interaction pour le lien */
+p  a:hover {
+    background-color: #434190; /* Teinte de bleu plus foncée */
+    transform: scale(1.05); /* Agrandit légèrement le lien */
+}
+
+
+
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Menu de navigation */
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    background-color:rgb(109, 24, 188) ;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header h2 {
+    margin: 10px 0 0;
+}
+
+/* Conteneur d'événements */
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Carte de l'événement */
+.event-card {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 280px;
+    margin: 15px;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    transition: transform 0.3s;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+/* Overlay de l'info */
+.event-info {
+    background-color: rgba(86, 84, 84, 0.6);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.event-info h3 {
+    font-size: 1.2em;
+    margin: 0;
+    color: #ffd700;
+}
+
+.event-info p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+/* Boutons d'interaction */
+.event-actions {
+    margin-top: 10px;
+}
+
+.btn-participate,
+.btn-like {
+    background-color: #ffd700;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-participate:hover,
+.btn-like:hover {
+    background-color: #ffbb00;
+}
+
+/* Formulaire d'avis */
+.feedback-form {
+    margin-top: 10px;
+}
+
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    font-size: 1em;
+    height: 60px;
+}
+
+.feedback-form input[type="submit"] {
+    width: 100%;
+    background-color: #ffd700;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.feedback-form input[type="submit"]:hover {
+    background-color: #ffbb00;
+}
